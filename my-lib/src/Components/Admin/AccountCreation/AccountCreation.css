@@ -1,0 +1,52 @@
+/* * {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+   */
+  form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 60vh;
+    padding: 1rem;
+  }
+  
+  input{
+    padding: .5rem;
+    margin: 1rem;
+    width: 50%;
+  }
+  
+  .err{
+    border: 1px solid red;
+  }
+  
+  .btn{
+    color: white;
+    background-color:teal;
+    border: none;
+    outline: none;
+    padding: .5rem;
+    border-radius: 3px;
+    cursor: pointer;
+    width: 50%;
+  }
+  
+  button:hover{
+    background-color: rgb(5, 87, 87);
+    transition: all .5s ease-in-out;
+  }
+  
+  h5{
+    color: red;
+  }
+
+  .Account{
+    color:black;
+    margin-Left: 600px;
+
+    padding: 50px;
+    text-shadow: 2px 2px salmon; 
+}
